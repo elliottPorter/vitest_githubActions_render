@@ -1,0 +1,17 @@
+{
+  "name": "vitest_githubactions_render",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elliott",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vite": "^5.4.11"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
