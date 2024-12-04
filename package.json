@@ -4,6 +4,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
+    "test": "vitest --run --report verbose",
     "start": "node app.js"
   },
   "author": "Elliott",

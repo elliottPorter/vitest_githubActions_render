@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-const calcTotalPrice = (price, quantity) => price * quantity;
+export const calcTotalPrice = (price, quantity) => price * quantity;
 
 // sample endpoint
 app.get('/api/sample-endpoint', (req, res) => {
