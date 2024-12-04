@@ -22,6 +22,6 @@ describe('GET /api/sample-endpoint', () => {
       
 //      vitest assertions
       expect(response.status).toBe(200);
-      expect(response.body.message).toBe('Hello from the sample endpoint and the price is 6');
+      expect(response.body.message).toBe('Update to this message : Hello from the sample endpoint and the price is 6');
     });
 });
