@@ -5,7 +5,12 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-export const calcTotalPrice = (price, quantity) => price * quantity;
+export const calcTotalPrice = (price, quantity) => {
+  if ( price < 0 || quantity < 0 ){
+    throw new Error('Negative numbers are not allowed');
+  }
+  return price * quantity;
+}
 
 // sample endpoint
 app.get('/api/sample-endpoint', (req, res) => {
