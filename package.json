@@ -4,12 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "npm start": "node index.js"
+    "start": "node index.js"
   },
   "author": "Elliott",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
     "vite": "^5.4.11"
   },
   "devDependencies": {
