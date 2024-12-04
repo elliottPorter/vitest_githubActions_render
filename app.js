@@ -12,6 +12,6 @@ app.get('api/sample-endpoint', (req, res) => {
 res.status(200).json( { message: 'Hello from the sample endpoint'});
 })
 
-app.listen(port, () =>{
+app.listen(port, '0.0.0.0', () =>{
   console.log(`Server is listening on port ${port}`);
 })
