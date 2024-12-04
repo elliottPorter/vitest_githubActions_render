@@ -15,7 +15,7 @@ export const calcTotalPrice = (price, quantity) => {
 // sample endpoint
 app.get('/api/sample-endpoint', (req, res) => {
     // send the response
-    res.status(200).json( { message: `Hello from the sample endpoint and the price is ${calcTotalPrice(2,3)}`});
+    res.status(200).json( { message: `Update to this message : Hello from the sample endpoint and the price is ${calcTotalPrice(2,3)}`});
 })
 
 app.listen(port, () =>{
